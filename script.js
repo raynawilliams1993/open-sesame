@@ -65,10 +65,12 @@ while(notContainsCriteria) {
 
 function newContent() {
     document.open();
-    document.write("<h1>YEEE - YEEE!</h1>");
+    document.write("Pick your Password!.style.color ='red'");
     document.close();
 }
 result = passwordArr.reduce(toString);
 alert(result);
 document.write(result);
 
+//style
+h1 id
