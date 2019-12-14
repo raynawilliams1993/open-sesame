@@ -82,6 +82,8 @@ generateBtn.addEventListener("click", function(){
         console.log("Generating Password")
     } else { alert("Please use the appropriate  criteria.")};
 
+    
+
     let charArr = [];
 if (userSpecial){ charArr = [...specialArr]};
 if (userUpperCase){ charArr = [...charArr, ...upperCaseLetter]}; // make reference arrays under vars
