@@ -1,28 +1,4 @@
 
 body{
-    background-color: rgb(62, 194, 247);
+    background-color: black;
 }
-container{}
-h1 {
-    color: indigo;
-    text-align: center;
-    font-size: 50px;
-    text-decoration:underline;
-}
-
-h2 {
-    color: indigo;
-    text-align: center;
-    font-size: 25px;
-    
-}
-
-h3 {
-    color: indigo;
-    text-align: center;
-    font-size: 15px;
-    
-}
-
-
-
