@@ -5,8 +5,8 @@ function randomInt(n) {
 }
 var copyBtn = document.getElementById("copy");
 copyBtn.addEventListener("click", function () {
-    console.log(passwordText.textContent);
-    if (passwordText.textContent === "") {
+    console.log(passwordText.value);
+    if (passwordText.value === "") {
         alert("Generate the password before copying.");
         return 0;
     };
@@ -16,6 +16,7 @@ copyBtn.addEventListener("click", function () {
     document.execCommand("copy");
     alert("Copied the password: " + passwordText.value);
 });
+
 
 function charArr(arrMain, arrTest) {
     for (let i = 0; i < arrTest.length; i++) {
